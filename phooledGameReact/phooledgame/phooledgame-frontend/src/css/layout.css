@@ -1,0 +1,19 @@
+.content {
+    max-width: 80em;
+    margin: 0 auto 1.5em;
+    width: 80%;
+    padding: 2em;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row .col {
+    flex-direction: column;
+}
+
+
+        

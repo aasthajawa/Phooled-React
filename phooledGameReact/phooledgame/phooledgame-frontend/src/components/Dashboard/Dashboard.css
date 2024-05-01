@@ -1,0 +1,185 @@
+/**
+* The following css contains all styles for both the user dashboard
+* and admin dashboard.
+*/
+
+.row {
+    flex-wrap: unset;
+}
+.dashboard {
+	display: flex;
+}
+h4 {
+    text-align: left;
+}
+.dashboard-side-panel {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid black; */
+	background-color: gainsboro;
+	/*background-color: #6B6E70;*/
+	color: black;
+	padding: 1rem;
+	margin-right: 2rem;
+
+}
+
+.dashboard-side-panel h1 {
+	margin-bottom: 0rem;
+	color: black;
+}
+
+.dashboard-side-panel h3 {
+	margin-top: 0rem;
+	color: black;
+}
+
+.dashboard-side-panel h3 {
+	margin-bottom: 0rem;
+	color: black;
+
+}
+
+.dashboard-summary-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: black;
+
+}
+
+.dashboard-button-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.button-row-top {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.button-row-bottom {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.button-left {
+	margin-right: 1rem;
+	flex-basis: 50%;
+}
+
+.button-right {
+	flex-basis: 50%;
+}
+
+button {
+	border: 1px solid black;
+	padding: 10px;
+	/*background-color: #4CAF50;*/
+	background-color: #222629;
+	/*color: white;*/
+	/*color: #4caf50;*/
+	color:white;
+}
+
+button:hover{
+	background-color: #3E8E41;
+}
+
+/*.dashboard-progress-bar {*/
+/*	border: 1px solid black;*/
+/*	background-color: silver;*/
+/*	width: 100%;*/
+/*	height: 2rem;*/
+/*	margin-bottom: 2.5rem;*/
+/*	border-radius: 20px;*/
+/*}*/
+
+.progress{
+	background-color: grey;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.dashboard-side-panelOFF {
+    width: 40%;
+}
+
+.performance{
+    background-color: gainsboro;
+    border-radius: 25px;
+    /* display:flex;
+    flex-direction: row;
+    align-items: center; */
+
+}
+
+.performance h3{
+    font-size: 18px;
+    padding: 10px 20px;
+    /* margin-left: 5px; */
+    
+
+}
+
+.performance h1{
+    font-size: 30px;
+    /* margin-left:5px; */
+}
+
+.performance-number{
+    font-size:30px;
+    vertical-align: -3px;
+}
+
+.progress{
+    border:none;
+    width:100%;
+    height:15px;
+    background-color: #FFCBCF;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+
+progress::-webkit-progress-value{
+    background:#3E8E41;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    background-color: gainsboro;
+    width: 55rem;
+    
+    
+}
+
+.flex-container > div {
+    padding: 0.2rem;
+    width:26rem;
+}
+
+.content {
+    flex-direction: column;
+}
+
+
+.dashboard-summary-containerOFF {
+    float: left;
+    padding: 0 0.5rem;
+}
+
+.my-auto {
+    flex: 0 0 50%;
+}

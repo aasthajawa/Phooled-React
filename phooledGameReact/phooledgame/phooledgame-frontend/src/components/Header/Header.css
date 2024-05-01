@@ -1,0 +1,87 @@
+a{
+    color: #7C66AC;
+}
+
+a:hover {
+    color: #9885c4;
+}
+.navbar {
+    background-color: #FAFBFD;
+    padding: 5px 50px;
+    height: 133px;
+}
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+
+nav .btn-group button {
+    padding: 10px 24px;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: white;
+    font-size: 1em;
+}
+
+nav .btn-group button:hover {
+    background-color: #3E8E41;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    height: 74px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5px;
+}
+
+.logo-group img {
+    width: auto;
+    height: 74px;
+    align-self: center;
+    margin-right: 12px;
+}
+
+.logBtn {
+    background-image: linear-gradient(to right, rgba(102, 68, 152, 0.918), rgba(153, 146,197,1));
+    border-radius: 25px;
+    padding: 5px 30px;
+    color: white;
+    line-height: 2rem;
+    border: 1px solid transparent;
+}
+.logBtn:hover {
+    background-color: #7362E9 !important;
+    border-color: #7362E9;
+}
+.nav-item {
+    padding: 0 0.3rem;
+    width: fit-content;
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+.nav-item a {
+    color: #374153 !important;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    /* color: #7146DA !important; */
+    text-decoration: underline !important;
+}
+li {
+    color: #546172;    
+    margin: 0.25rem 0;
+}
+
+ul {
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+}

@@ -1,0 +1,14 @@
+.main-login-content {
+    background-color: #C3D8E6;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.signup-ul {
+    display: block;
+}

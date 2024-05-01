@@ -1,0 +1,494 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100%;
+    
+}
+
+a {
+    color: #7C66AC;
+}
+
+a:hover {
+    color: #9885c4;
+}
+
+/**
+* Phishducation Navaigation Styles
+*/
+
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #222629;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+
+nav .btn-group button {
+    padding: 10px 24px;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: white;
+    font-size: 1em;
+}
+
+nav .btn-group button:hover {
+    background-color: #3E8E41;
+}
+
+.flex {
+    display: flex;
+}
+
+.username-group {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.username-group>span {
+    color: white;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    height: 74px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5px;
+}
+
+.logo-group img {
+    width: auto;
+    height: 74px;
+    align-self: center;
+    margin-right: 12px;
+}
+
+.logo-group h1 {
+    color: white;
+    /* font: 400 2em Arial; */
+}
+
+
+/* Log-In Styles */
+
+.logo-image-login {
+    width: 80px;
+}
+
+.login-header {
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #6B6E70;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+    margin: 5rem auto 2rem auto;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.main-login-content {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: #6B6E70;
+    color: white;
+    padding: 1rem;
+    max-width: 25rem;
+    align-items: center;
+    margin: 5rem auto 2rem auto;
+}
+
+.homepage-content {
+    background-color: #6B6E70;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+    margin: 5rem 1em 2rem 1em;
+}
+
+.submit-btn {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid black;
+}
+
+.sign-in-button {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+    width: 170px;
+}
+
+.create-account-button {
+    border: 1px solid black;
+    padding: 10px;
+    color: #4CAF50;
+    font-weight: 600;
+    width: 150px;
+}
+
+.text-boxes {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* ADDED CSS AK */
+.navbar-toggler {
+    background-color:#603A93;
+    border: #603A93;
+    padding: 5px;
+}
+.navbar-toggler:hover {
+    background-color: #7853aa;
+    border: #7853aa;
+}
+.dashBtn {
+    background-color: #FF4F5A !important;
+    border-color: #FF4F5A !important;
+    border-radius: 25px;
+    color: white !important;
+}
+.dashBtn:hover {
+    background-color: #ff777e !important;
+    border-color: #ff777e !important;
+}
+.dashBtnB {
+    background-color: #FF4F5A !important;
+    border-color: #FF4F5A !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white !important;
+}
+.dashBtnB:hover {
+    background-color: #ff777e !important;
+    border-color: #ff777e !important;
+}
+.dashBtn2 {
+    background-color: #25b9dd;
+    border-color: #25b9dd;
+    border-radius: 25px;
+}
+.dashBtn2:hover {
+    background-color: #34D2FD !important;
+    border-color: #34D2FD;
+}
+.logBtn {
+    background-image: linear-gradient(to right, rgba(102, 68, 152, 0.918), rgba(153, 146,197,1));
+    border-radius: 25px;
+    padding: 5px 30px;
+    color: white;
+}
+.logBtn:hover {
+    background-color: #7362E9 !important;
+    border-color: #7362E9;
+}
+.profBtn {
+    background-color: #D05DCC !important;
+    border-color: #D05DCC !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 200px;
+    color: white;
+}
+.profBtn:hover {
+    background-color: #e281de !important;
+    border-color: #e281de !important;
+}
+.loginBtn {
+    background-color: #5792CF !important;
+    border-color: #5792CF !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 185px !important;
+    color: white;
+}
+.loginBtn:hover {
+    background-color: #74aae0 !important;
+    border-color: #74aae0 !important;
+}
+.nav-item a {
+    color: #374153 !important;
+}
+.nav-item a:hover {
+    /* color: #7146DA !important; */
+    text-decoration: underline !important;
+}
+.fl-page {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px; /* Should be equal to the height of your footer */
+  }
+  .fl-page-footer-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  .greyMe {
+      color: #374153;
+  }
+input {
+    border-radius: 25px !important;
+    border: none;
+    height: 45px !important;
+}
+span {
+    color: #374153;
+}
+.backBtn {
+    background-color: #CC87C5 !important;
+    border-color: #CC87C5 !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+}
+.backBtn:hover {
+    background-color: #dda1d6 !important;
+    border-color: #dda1d6 !important;
+}
+.feedBtn {
+    background-color: #019C86 !important;
+    border-color: #019C86 !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 185px;
+    color: white;
+}
+.feedBtn:hover {
+    background-color: #0bbfa4 !important;
+    border-color: #0bbfa4 !important;
+}
+.feedBtn2 {
+    background-color: #55b8c1 !important;
+    border-color: #55b8c1 !important;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 185px;
+    color: white;
+}
+.feedBtn2:hover {
+    background-color: #5cccd6 !important;
+    border-color: #5cccd6 !important;
+}
+h4, label {
+    color: #374153;
+}
+textarea {
+    height: 130px;
+}
+.whiteMe {
+    color: white;
+}
+
+p {
+    color: #546172;
+}
+
+li {
+    color: #546172;    
+}
+
+.vidCard {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 15px;
+    min-height: 380px;
+    background-color: #DCEFF1;
+  }
+  
+  .vidCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .vidContainer {
+    padding: 2px 16px;
+  }
+
+.classLnk {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .classLnk:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.h7 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-danger {
+    background-color: #FF4F5A;
+}
+
+/* label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+  }
+
+  input[type=radio],
+  input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  } */
+
+  .footerLink {
+    display: inline;
+    font-size: 12px;
+    color: white;
+    font-weight: none;
+  }
+
+  .footerLink:hover {
+      color: white;
+  }
+/* 
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+  } */
+
+  .main_container {
+    height: 46px;
+    width: auto;
+    padding: 3px;
+    margin: 2px;
+    max-width: 300px;
+    background-color: #555555;
+    align-content: center;
+  }
+  .container_inner {
+    height: auto;
+    border: none;
+    background-color: #555555;
+    max-width: 290px;
+    vertical-align: center;
+    padding-top: 12px;
+    padding-left: 10px;
+    align-content: center;
+  }
+   .num_tiles {
+    width:30px;
+    height: 30px;
+    background-color: #888888;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    margin: 1.5px;
+    font-family: verdana;
+    vertical-align: center;
+  }
+
+  /* The Modal (background) */
+.my-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  /* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+      cursor: pointer;
+  }
+
+  #myBtnPrivacy:hover {
+    cursor: pointer;
+}
+
+#myBtnCredits:hover {
+    cursor: pointer;
+}
+
+.modal-popup * {
+    font-size: 12px !important;
+}
+
+.footer-link {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
